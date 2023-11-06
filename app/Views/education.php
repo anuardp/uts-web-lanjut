@@ -246,9 +246,10 @@
 
 <!-- CONTENT -->
 
-<!-- <section>
+<section>
     <h1>About this page</h1>
-</section> -->
+    <p>Halaman ini merupakan halaman terkait riwayat pendidikan Phasya.</p>
+</section>
 
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
 
