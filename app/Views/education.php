@@ -209,32 +209,46 @@
             <li class="menu-toggle">
                 <button onclick="toggleMenu();">&#9776;</button>
             </li>
-            <li class="menu-item hidden"><a href="">Home</a></li>
+            <li class="menu-item hidden"><a href="<?php echo base_url() ?>">Home</a></li>
             <li class="menu-item hidden"><a href="about_me" target="_blank">About Me</a>
             </li>
-            <li class="menu-item hidden"><a href="education" target="_blank">Education</a></li>
+            <li class="menu-item hidden"><a href="" target="_blank">Education</a></li>
         </ul>
     </div>
 <!--  -->
     <div class="heroe">
-
-        <h1>Selamat Datang di Website Aulia Nur Adib Phasya</h1>
-
-        <h2>Ini digunakan untuk menunjukkan kompetensi saya dalam menggunakan framework HMVC dalam pengembangan aplikasi web serta mengelola source code menggunakan sistem kontrol versi GIT</h2>
-
+        <h1>My Education</h1>
+        <table width="100%" border="1 solid black">
+            <tr>
+                <th>Tingkat</th>
+                <th>Nama Sekolah</th>
+            </tr>
+            <tr>
+                <td>TK</td>
+                <td>TK Al Kautsar</td>
+            </tr>
+            <tr>
+                <td>SD</td>
+                <td>SD Muhammadiyah 2 Samarinda</td>
+            </tr>
+            <tr>
+                <td>SMP</td>
+                <td>SMP Negeri 1 Samarinda</td>
+            </tr>
+            <tr>
+                <td>SMA</td>
+                <td>SMA Kharisma Bangsa Tangerang Selatan</td>
+            </tr>
+        </table>
     </div>
 
 </header>
 
 <!-- CONTENT -->
 
-<section>
-
+<!-- <section>
     <h1>About this page</h1>
-
-    <p>Halaman ini merupakan halaman selamat datang</p>
-
-</section>
+</section> -->
 
 <!-- FOOTER: DEBUG INFO + COPYRIGHTS -->
 
