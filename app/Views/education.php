@@ -209,7 +209,7 @@
             <li class="menu-toggle">
                 <button onclick="toggleMenu();">&#9776;</button>
             </li>
-            <li class="menu-item hidden"><a href="<?php echo base_url() ?>">Home</a></li>
+            <li class="menu-item hidden"><a href="<?=base_url()?>">Home</a></li>
             <li class="menu-item hidden"><a href="about_me" target="_blank">About Me</a>
             </li>
             <li class="menu-item hidden"><a href="" target="_blank">Education</a></li>
